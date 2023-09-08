@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+            <h1>JavaScript</h1>
+            <div class="input-box">
+                <input type="number" required id="inputNumber" placeholder="0">
+                <Label>1. Укажите отрицательное или положительное число?</Label>
+                <button id="btnNumber">Проверить число..</button><br><br>
+                <label id="otvNumber">Ответ:</label>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputOld">
+                <Label>2. Сколько вам лет?</Label>
+                <button id="btnOld">Проверить возраст..</button><br><br>
+                <label id="otvOld">Ответ:</label>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputModul">
+                <Label>3. Укажите число для модуля?</Label>
+                <button id="btnModul">Проверить модуль..</button><br><br>
+                <label id="otvModul">Ответ:</label>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputHoursz" placeholder="hours">
+                :
+                <input type="number" required id="inputMinsz" placeholder="mins">
+                :
+                <input type="number" required id="inputSecsz" placeholder="secs">
+                <Label>4. Укажите время</Label>
+                <button id="btnTime">Проверить время..</button><br><br>
+                <label id="otvTime">Ответ:</label>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputX" placeholder="x">
+                :
+                <input type="number" required id="inputY" placeholder="y">
+                <Label>5. Укажите точки координат?</Label>
+                <button id="btnXY">Проверить точку..</button><br><br>
+                <label id="otvXY">Ответ:</label>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputMonth" placeholder="0">
+                <Label>6. Укажите номер месяца?</Label>
+                <button id="btnMonth">Проверить месяц..</button><br><br>
+                <label id="otvMonth">Ответ:</label>
+            </div>
+            <div class="input-box">
+                <input class="calc" type="number" required id="inputNumber_1" placeholder="0">
+                
+                <input class="znak" type="text" required id="inputZnak" placeholder="+ - * /">
+                
+                <input class="calc" type="number" required id="inputNumber_2" placeholder="0">
+                <Label>7. Введите 2 числа и операцию?</Label>
+                <button id="btnCalc">Посчитать..</button><br><br>
+                <label id="otvCalc">Ответ:</label>
+            </div>
+
+
+
+            <!-- <div class="input-box">
+                <input type="number" required id="inputUSD">
+                <Label>1. Сколько у вас USD?</Label><br><br>
+                <p>Во что перевести?</p><br>
+                <input class="choice" type="radio" name="q1" value="EUR">  EUR<br>
+                <input class="choice" type="radio" name="q1" value="UAN">  UAN<br>
+                <input class="choice" type="radio" name="q1" value="AZN">  AZN<br><br>
+                <button id="btnUSD">Перевести?</button>
+                <label id="EUR_RESULT"></label>
+            </div>
+
+            <div class="input-box dayz">
+                <input type="number" required id="inputDayz" placeholder="day" value="">
+                -
+                <input type="number" required id="inputMonthz" placeholder="month" value="">
+                -
+                <input type="number" required id="inputYearz" placeholder="year" value="">
+                <Label>2. Введите число.</Label>
+                <button id="btnDate">Узнать завтрашний день?</button><br><br>
+                <Label id="labelDate">Завтра будет:</Label>
+            </div> -->
+
+
+            <!-- <div class="input-box">
+                <input type="number" required id="inputAverage_1">
+                <br id="brAverage">
+                <input type="number" required id="inputAverage_2">
+                <Label>2. Дай 2 числа и я выведу их среднее арифметическое.</Label>
+                <button id="btnAverage">Вывести?</button>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputLength">
+                <Label>3. Укажите длину стороны квадрата.</Label>
+                <button id="btnLength">Вычислить?</button>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputConv">
+                <Label>4. Конвертор Км в Мили.</Label>
+                <button id="btnConv">Конвертировать?</button>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputCalc_1">
+                <br id="brCalc">
+                <input type="number" required id="inputCalc_2">
+                <Label>5. Calculator</Label>
+                <button id="btnPlus">+</button>
+                <button id="btnMinus">-</button>
+                <button id="btnDevide">/</button>
+                <button id="btnTimes">*</button>
+                <br><br>
+                <input type="text" required id="CalcRes">
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputFormula_1">
+                <br id="brFormula">
+                <input type="number" required id="inputFormula_2">
+                <Label id="labelFormula">6. Введи <strong style="color: red;">a</strong> и <strong style="color: red;">b</strong> для формулы a * x + b = 0</Label>
+                <button id="btnFormula">Высчитать?</button>
+            </div>
+            <div class="input-box">
+                <input type="number" required id="inputHours" value="0">
+                :
+                <input type="number" required id="inputMinutes" value="0">
+                <Label id="labelTime">7. Узнать сколько осталось до конца дня.</Label>
+                <button id="btnTime">Узнать??</button>
+            </div>
+            <div class="input-box">
+                <input type="text" required id="inputStr">
+                <Label>8. Выведу второй символ</Label>
+                <button id="btnStr">Вывести?</button>
+            </div>
+            <div class="input-box">
+                <input type="text" required id="inputStrLast">
+                <Label>9. Перемещу последний символ в начало.</Label>
+                <button id="btnStrLast">Переместить?</button>
+            </div>
+
+            <div class="input-box">
+                <input type="text" required id="inputSold">
+                <Label>10. На сколько вы продали?</Label>
+                <button id="btnSold">Высчитать зп вхывхфцвжф🤣</button>
+            </div> -->
+        </div>
+        
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
