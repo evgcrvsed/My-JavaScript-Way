@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+            <h1>JavaScript</h1>
+            <h1>Массив (1)<br><button id="gen_array_1">Создать новый?</button></h1>
+            <h1 id="massiv_1">0</h1>
+
+            <div class="input-box">
+                <Label>1. Выведу массив на экран.</Label>
+                <button id="btnAlert">Start</button>
+            </div>
+            <div class="input-box">
+                <Label>2. Выведу только чётные символы.</Label>
+                <button id="btnEven">Start</button>
+                <label id="labelEven"></label>
+            </div>
+            <div class="input-box">
+                <Label>3. Выведу сумму всех чисел.</Label>
+                <button id="btnSumm">Start</button>
+                <label id="labelSumm"></label>
+            </div>
+            <div class="input-box">
+                <Label>4. Выведу макс элемент.</Label>
+                <button id="btnMax">Start</button>
+                <label id="labelMax"></label>
+            </div>
+            <div class="input-box">
+                <Label>5. Вставлю элемент по указанному индексу.</Label>
+                <input id="inputAddIndex_index" min="0" max="10" value="4" type="number" placeholder="index">
+                <input style="width: 50px;" id="inputAddIndex_value" value="bebra" type="text" placeholder="value">
+                <button id="btnAddIndex">Start</button>
+                <label id="labelAddIndex"></label>
+            </div>
+
+            <div class="input-box">
+                <Label>6. Удалю индекс из массива.</Label>
+                <input id="inputDelIndex" style="width: 30px;" placeholder="0" type="number">
+                <button id="btnDelIndex">Start</button>
+                <label id="labelDelIndex"></label>
+            </div><br><br><br>
+
+
+            <h1>Массив (2)<br><button id="gen_array_2">Создать новый?</button></h1>
+            <h1 id="massiv_2">0</h1>
+            <div class="input-box">
+                <Label>1. Сделаю один <span style="color: red;">Уникальный</span> массив из двух.</Label>
+                <button id="btnUnique">Start</button><br>
+                <label id="labelUnique"></label>
+            </div>
+            <div class="input-box">
+                <Label>2. Найду <span style="color: red;">Повторения</span> в массивах.</Label>
+                <button id="btnNotUnique">Start</button><br>
+                <label id="labelNotUnique"></label>
+            </div>
+            <div class="input-box">
+                <Label>3. Найду <span style="color: red;">Уникальные</span> числа которых нет во 2 массиве.</Label>
+                <button id="btnOneUnique">Start</button><br>
+                <label id="labelOneUnique"></label>
+            </div><br><br><br>
+
+
+            <h1>Фрукты</h1>
+            <div class="input-box">
+                <Label>2. Найти <span style="color: red;">Фрукт</span> массива?</Label>
+                <input id="inputFindFruits" placeholder="кешью" type="text">
+                <button id="btnFindFruits">Start</button><br>
+                <label id="labelFindFruits"></label>
+            </div>
+            <div class="input-box">
+                <Label>1. Выпишу все <span style="color: red;">Фрукты</span> из массива.</Label>
+                <button id="btnWriteFruits">Start</button><br>
+                <label id="labelWriteFruits"></label>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

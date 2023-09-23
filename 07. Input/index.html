@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <title>Инпуты вхыхпхвф</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <label>Card Number</label><br>
+            <input type='number' style="width: 345px;" id="card_number" placeholder="1234 5678 9123 4567"><br>
+            <label>Name On Card</label><br>
+            <input type="text" style="width: 345px;" id="card_name" placeholder="Name Surname"><br>
+            <label>Expiry Date</label><label>CVV/CVN</label><br>
+            <input class="three" type="number" id="card_1" placeholder="02" style="margin-right: 77px;"><input id="card_2" class="three" type="number" placeholder="2017" style="margin-right: 77px;"><input id="card_3" class="three" placeholder="***" type="number">
+            <br><br><br>
+        </div>
+
+
+        <div class="buttons card">
+            <div>
+                <h2>Inputs</h2><br>
+                <input class="top" type="text" placeholder="Enter some text">
+                <input class="top valid" type="text" placeholder="Valid text          ✔">
+                <input class="top invalid" type="text" placeholder="Invalid text     ❌">
+                <br><br>
+            </div>
+
+
+            <!-- Доделать -->
+            <div>
+                <h2>Check boxes</h2><br>
+                <input class="switch" type="checkbox" id="switch_1">
+                <label for="switch_1">Subscribe</label>
+                <input class="switch" type="checkbox" id="switch_2">
+                <label for="switch_2">Subscribe</label>
+                <br><br>
+            </div>
+            <!-- Сверху -->
+
+            <div>
+                <h2>Radio buttons</h2><br>
+                <label>Gender: </label>
+                <input id="Male" name="Gender" class="radio" type="radio">
+                <label for="Male">Male</label>
+                <input id="Female" name="Gender" class="radio" type="radio">
+                <label for="Female">Female</label>
+                <br><br>
+            </div>
+
+            <div class="buttons">
+                <h2>Buttons</h2><br>
+                <button class="btnActive">Active</button>
+                <button class="btnHover">Hover</button>
+                <button class="btnDanger">Danger</button>
+                <button class="btnHover">Hover</button>
+                <button class="btnDisabled">Disabled</button>
+                <br><br>
+            </div>
+
+            <div class="textarea">
+                <h2>Text area</h2><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your text here.."></textarea>
+                  <br>
+                  <input type="submit" value="Отправить">
+            </div>
+            
+
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: rgb(159,205,205);
+    margin-left: 300px;
+    margin-right: 300px;
+
+    padding: 20px;
+    width: 500px;
+}
+.card:nth-child(1) input {
+    background-color: rgb(169,210,210);
+    border: none;
+    border-bottom: 1px solid black;
+
+    padding: 5px 10px;
+}
+
+.card .three{
+    width: 50px;
+    /* margin-right: 30px; */
+
+    text-align: center;
+}

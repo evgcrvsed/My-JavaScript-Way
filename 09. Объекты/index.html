@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+            <h1>JavaScript</h1>
+
+            <div class="input-box">
+                <Label>1. Создайте свою машину.</Label><br>
+                <input id="car_name" type="text" placeholder="Имя" value="Bebrobill">
+                <input id="car_dev" type="text" placeholder="Произв" value="Bebrino Pro">
+                <input id="car_model" type="text" placeholder="Модель" value="Bebra">
+                <input id="car_year" type="number" placeholder="Год выпуска" value="2022">
+                <input id="car_speed" type="number" placeholder="Ср скорость" value="200">
+                <span style="color: red;"></span>
+
+                <button id="btnCarCreate">Создать.</button><br>
+
+                <label id="cars"><br></label>
+            </div>
+            <div class="input-box">
+                <Label>Узнаём информацию про машину.</Label><br>
+                <select id="car_select" style="display: none;">
+                    <br>
+                </select><br>
+                <button id="btnCarInfo">Открыть машину.</button>
+                <input id="car_range" value="1000" style="width: 50px;" type="text" placeholder="км">
+                <button id="btnCarSpeed">Узнать время на преодоление расстояния.</button><br>
+                <label id="car_info"><br></label>
+            </div><br><br><br>
+
+            <div class="input-box">
+                <label>3. Создайте объект времени.</label><br>
+                <input value="5" id="inputHours" type="text" placeholder="h">
+                <input value="23" id="inputMins" type="text" placeholder="m">
+                <input value="50" id="inputSecs" type="text" placeholder="s"><br>
+                <button id="btnTimeStat">Анализ.</button><br>
+                <label id="labelTime"><br></label><br>
+
+                <button id="btnAddSecs">Прибавить</button>
+                <input id="inputAddSecs" type="text">
+                <label>секунд</label><br>
+
+                <button id="btnAddMins">Прибавить</button>
+                <input id="inputAddMins" type="text">
+                <label>минут</label><br>
+
+                <button id="btnAddHours">Прибавить</button>
+                <input id="inputAddHours" type="text">
+                <label>часов</label><br>
+
+                <label id="timeResult"><br></label>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

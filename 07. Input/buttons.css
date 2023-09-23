@@ -1,0 +1,65 @@
+.buttons input {
+    padding: 5px 10px;
+}
+
+.top {
+    width: 100px;
+}
+.valid, .valid::placeholder {
+    border-color: rgb(13, 180, 13);
+    color: rgb(13, 180, 13);
+}
+.invalid, .invalid::placeholder {
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+.radio {
+    transform: scale(2);
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+/* Стили для изменения цвета выделения */
+input[type="radio"]:checked + label {
+    color: #34db47; /* Цвет выделения при выборе радиокнопки */
+    background-color: black;
+    transition: .5s;
+}
+
+button {
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    
+    transition: .5s;
+}
+.btnActive:hover, .btnHover:hover, .btnDanger:hover{
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.btnActive {
+    background-color: #20b632;
+    color: white;
+}
+.btnHover {
+    background-color: #177322;
+    color: white;
+}
+.btnDanger {
+    background-color: rgb(255, 59, 59);
+    color: white;
+}
+.btnDisabled {
+    background-color: rgba(0, 0, 0, 0.502);
+    cursor: not-allowed;
+    color: white;
+}
+
+textarea{
+    text-align: left;
+}
+
